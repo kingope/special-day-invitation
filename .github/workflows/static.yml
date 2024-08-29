@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Day Out</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .option {
+            background-color: #28a745;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .option:hover {
+            background-color: #218838;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A Special Day Awaits!</h1>
+    </header>
+
+    <div class="container">
+        <h2>Hello Hajaraah,</h2>
+        <p>I’ve been thinking about how amazing it would be to spend a day with you, enjoying great food, capturing beautiful moments, and having some fun! I wanted to do something unique, just for you.</p>
+
+        <h3>Here’s a Taste of What’s to Come...</h3>
+        <div class="gallery">
+            <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/BSFRTL23_41925_08_09_11b-yellow-cupcakes.jpg" alt="Delicious Snack 1">
+            <img src="https://via.placeholder.com/150" alt="Delicious Snack 2">
+            <img src="https://via.placeholder.com/150" alt="Delicious Snack 3">
+        </div>
+        <p>Just like these snacks, our day will be a perfect blend of flavors and fun.</p>
+
+        <h3>Your Choice: Lunch or Adventure?</h3>
+        <div class="option" onclick="alert('Great choice! I can’t wait to enjoy lunch with you.')">
+            A Cozy Lunch at a Charming Restaurant
+        </div>
+        <div class="option" onclick="alert('Adventure it is! Let’s explore and create amazing memories.')">
+            An Exciting Outdoor Adventure
+        </div>
+
+        <p>No matter what you choose, I’m sure we’ll have an unforgettable time together. Looking forward to it!</p>
+
+        <footer>
+            <p>Yours truly, Toheeb</p>
+        </footer>
+    </div>
+
+</body>
+</html>
